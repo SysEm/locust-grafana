@@ -6,7 +6,7 @@ import requests
 import time
 import json
 import os
-#Prueba
+#Prueba2
 statsd = TCPStatsClient(host=os.environ.get('STATSD_HOST', '192.168.59.103'), 
                      port=os.environ.get('STATSD_PORT', 8125), 
                      prefix=os.environ.get('STATSD_PREFIX', 'locust')) 
